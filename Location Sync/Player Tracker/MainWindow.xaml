@@ -1,0 +1,15 @@
+﻿<Window x:Class="Player_Tracker.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="350" Width="525">
+    <Grid>
+        <Label x:Name="xPos" Content="X pos" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Width="44" Loaded="xPos_Loaded"/>
+        <Label x:Name="yPos" Content="Y pos" HorizontalAlignment="Left" Margin="10,41,0,0" VerticalAlignment="Top" Width="44"/>
+        <Label x:Name="zPos" Content="Z pos" HorizontalAlignment="Left" Margin="10,72,0,0" VerticalAlignment="Top" Width="44"/>
+        <Label x:Name="mapId" Content="Map" HorizontalAlignment="Left" Margin="224,10,0,0" VerticalAlignment="Top" Width="44"/>
+        <TextBox x:Name="xPosText" HorizontalAlignment="Left" Height="23" Margin="59,13,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="110"/>
+        <TextBox x:Name="yPosText" HorizontalAlignment="Left" Height="23" Margin="59,43,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="110"/>
+        <TextBox x:Name="zPosText" HorizontalAlignment="Left" Height="23" Margin="59,72,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="110"/>
+
+    </Grid>
+</Window>
